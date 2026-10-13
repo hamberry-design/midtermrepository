@@ -1,0 +1,62 @@
+/**{*/
+/*    margin: 0;*/
+/*}*/
+
+/*body {*/
+/*    height: 100vh;*/
+/*}*/
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.inputbg {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    font-family: arial, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: steelblue;
+
+}
+
+
+.inputbg h1 {
+    color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputbg input {
+    height: 35px;
+    display: flex;
+}
+
+.inputbg select {
+    height: 40px;
+}
+
+.inputbg button {
+    height: 40px;
+    background-color: steelblue;
+    color: white;
+    margin-top: 10px;
+}
+
+.inputbg #result {
+    color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
