@@ -37,8 +37,7 @@ document.getElementById("getticket").addEventListener('click', (e) => {
     (age >= 13 && age <= 64) {
         result.textContent = name + ", Your ticket is $20";} else if
     (name === "" || age === "") {
-        result.textContent = "Please enter a name and a valid age";
-    }
+        result.textContent = "Please enter a name and a valid age";}
 })
 
 
